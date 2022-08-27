@@ -7,7 +7,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border-bottom: 2px solid aqua;
 }
 .logolinguagens {
   width: 200px;
@@ -34,10 +33,10 @@ a {
 .contato:hover {
   background-color: rgba(167, 246, 246, 0.935);
 }
-li {
+.listmenu {
   position: relative;
 }
-li:after {
+.listmenu:after {
   content: "";
   display: block;
   height: 4px;
@@ -156,4 +155,12 @@ main {
   align-items: center;
   justify-content: space-around;
   margin: 20px;
+}
+
+.listfooter{
+  padding: 5px;
+  border-radius: 4px;
+}
+.listfooter:hover{
+border: 0.4px solid aqua;
 }
