@@ -26,8 +26,8 @@ a {
   font-weight: 400;
 }
 .contato {
-  padding: 15px 20px;
-  border-radius: 2px;
+  padding: 10px;
+  border-radius: 4px;
   border: 0.4px solid aqua;
 }
 .contato:hover {
@@ -157,10 +157,15 @@ main {
   margin: 20px;
 }
 
-.listfooter{
+.listfooter {
   padding: 5px;
   border-radius: 4px;
 }
-.listfooter:hover{
-border: 0.4px solid aqua;
+.listfooter:hover {
+  border: 0.4px solid aqua;
+}
+.habilits {
+  background-color: #c7c2da;
+  padding: 50px;
+  border-radius: 4px;
 }
