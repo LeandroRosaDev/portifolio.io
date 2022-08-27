@@ -1,44 +1,43 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 body {
   margin: 0px;
-  font-family: Arial, Helvetica, sans-serif ;
+  font-family: Arial, Helvetica, sans-serif;
 }
-header{
+header {
   display: flex;
   align-items: center;
-  justify-content:space-around ;
+  justify-content: space-around;
   border-bottom: 2px solid aqua;
 }
-.logolinguagens{
+.logolinguagens {
   width: 200px;
 }
-ul{
+ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 80px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 a {
   text-decoration: none;
   color: black;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
-.contato{
+.contato {
   padding: 15px 20px;
   border-radius: 2px;
   border: 0.4px solid aqua;
 }
-.contato:hover{
+.contato:hover {
   background-color: rgba(167, 246, 246, 0.935);
 }
 li {
   position: relative;
 }
- li:after {
+li:after {
   content: "";
   display: block;
   height: 4px;
@@ -52,13 +51,15 @@ li:hover::after {
   transition: 0.3s;
   position: absolute;
 }
-h1 , span , p {
-  font-family: 'Roboto', sans-serif;
+h1,
+span,
+p {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
 }
 span {
-  color: #5E3BEE;
+  color: #5e3bee;
 }
 p {
   font-size: 18px;
@@ -101,7 +102,6 @@ main {
   margin: 120px;
   gap: 100px;
   margin-bottom: 240px;
-
 }
 .aboutme {
   display: grid;
@@ -117,7 +117,7 @@ main {
 .portifoliotitlle {
   margin: 120px;
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   margin-top: 120px;
 }
@@ -126,10 +126,13 @@ main {
   padding: 15px 20px;
   border-radius: 4px;
   width: 140px;
-  background-color: #E62872;
+  background-color: #e62872;
   color: azure;
   margin-left: 400px;
   max-width: 100%;
+}
+.visitgit:hover {
+  background-color: #941c4a;
 }
 
 .portifoliocontent {
@@ -145,5 +148,12 @@ main {
   border-radius: 4px;
 }
 .imagem:hover {
-  border: 2px solid #5E3BEE; 
+  border: 2px solid #5e3bee;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
 }
