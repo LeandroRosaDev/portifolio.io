@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content:space-around ;
+  border-bottom: 2px solid aqua;
+}
+.logolinguagens{
+  width: 200px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.contato{
+  padding: 15px 20px;
+  border-radius: 2px;
+  border: 0.4px solid aqua;
+}
+.contato:hover{
+  background-color: rgba(167, 246, 246, 0.935);
+}
+li {
+  position: relative;
+}
+ li:after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0%;
+  background-color: aqua;
+  margin-top: 2px;
+}
+
+li:hover::after {
+  width: 100%;
+  transition: 0.3s;
+  position: absolute;
+}
+h1 , span , p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+}
+span {
+  color: #5E3BEE;
+}
+p {
+  font-size: 18px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 120px;
+  align-items: center;
+}
+
+.logowhats {
+  width: 50px;
+  margin-top: 50px;
+}
+.logowhats:hover {
+  width: 55px;
+}
+.borderbot {
+  border-bottom: 2px solid aqua;
+}
+.skills {
+  margin: 120px;
+}
+.myskills {
+  margin-top: 120px;
+}
+.myexpertise {
+  font-family: 48px;
+}
+.introimg {
+  max-width: 100%;
+  display: block;
+  margin-left: 60px;
+}
+.qualities {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 120px;
+  gap: 100px;
+  margin-bottom: 240px;
+
+}
+.aboutme {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 120px;
+  align-items: center;
+}
+.aboutme img {
+  max-width: 50%;
+  margin-left: 120px;
+}
+
+.portifoliotitlle {
+  margin: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.visitgit {
+  padding: 15px 20px;
+  border-radius: 4px;
+  width: 140px;
+  background-color: #E62872;
+  color: azure;
+  margin-left: 400px;
+  max-width: 100%;
+}
+
+.portifoliocontent {
+  margin: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+}
+
+.imagem {
+  max-width: 100%;
+  border: 0.4px solid aqua;
+  border-radius: 4px;
+}
+.imagem:hover {
+  border: 2px solid #5E3BEE; 
+}
