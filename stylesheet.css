@@ -124,7 +124,7 @@ main {
 .visitgit {
   padding: 15px 20px;
   border-radius: 4px;
-  width: 140px;
+  width: 50px;
   background-color: #e62872;
   color: azure;
   margin-left: 400px;
@@ -165,3 +165,143 @@ main {
   border: 0.4px solid aqua;
 }
 
+.habilits {
+  background-color: rgb(240, 236, 236);
+  padding: 15px;
+}
+
+@media (max-width: 1200px) {
+  .qualities {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 900px) {
+  h1,
+  span {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 14px;
+  }
+  ul {
+    gap: 30px;
+  }
+  .logowhats {
+    width: 35px;
+  }
+  .logowhats:hover {
+    width: 40px;
+  }
+  .listmenu {
+    background-color: rgb(240, 236, 236);
+    padding: 5px;
+    border-radius: 4px;
+  }
+  .listmenu:hover {
+    border: 0.4px solid aqua;
+  }
+  .contato,
+  .listmenu:after {
+    display: none;
+  }
+  .habilits img {
+    width: 25%;
+  }
+
+  .aboutme {
+    grid-template-columns: 1fr;
+  }
+  .aboutme img {
+    display: none;
+  }
+  .logofooter {
+    display: none;
+  }
+}
+@media (max-width: 770px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  .portifoliotitlle {
+    grid-template-columns: 1fr;
+  }
+  .visitgit {
+    margin-left: 0px;
+  }
+  .logolinguagens {
+    width: 150px;
+  }
+}
+@media (max-width: 660px) {
+  ul {
+    gap: 20px;
+  }
+  .qualities {
+    grid-template-columns: 1fr;
+  }
+  .logolinguagens {
+    width: 100px;
+  }
+  .portifoliocontent {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 660px) {
+  .qualities h2 {
+    font-size: 18px;
+  }
+  .qualities p {
+    font-size: 12px;
+  }
+  a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 450px) {
+  .introimg {
+    display: none;
+  }
+  h1 , span {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .qualities, .introducao , .skills, .aboutme, .portifoliotitlle, .portifoliocontent, main {
+    margin: 30px;
+  }
+  .habilits {
+    padding: 5px;
+  }
+}
+@media (max-width: 250px){
+   .qualities , .introducao , .skills, .aboutme, .portifoliotitlle, .portifoliocontent, main {
+    margin: 15px;
+  }
+  
+  h1 , span {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 8px;
+  }
+  a{
+    font-size: 10px;
+  }
+  .habilits p {
+    font-size: 8px;
+    
+  }
+  .borderbot {
+    margin-top: 30px;
+  }
+}
