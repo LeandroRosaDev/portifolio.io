@@ -290,6 +290,11 @@ main {
   .habilits {
     padding: 5px;
   }
+  .aboutme img {
+    display: block;
+    grid-row: 2;
+    margin: 30px;
+  }
 }
 @media (max-width: 250px){
    .qualities , .introducao , .skills, .aboutme, .portifoliotitlle, .portifoliocontent, main {
@@ -315,6 +320,7 @@ main {
   .borderbot {
     margin-top: 30px;
   }
+  
 }
 
 
