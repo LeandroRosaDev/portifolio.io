@@ -2,8 +2,10 @@
 
 <h4>Este é um site de portifólio pessoal com a intenção de expôr um pouco os meus projetos e contar um pouco sobre a minha história na programação.</h4>
 
-<h1><img class="imagem" src="./img/imgReadme.png" alt="Portifólio"></h1>
-<h1><img class="imagem" src="./img/imgReadme2.png" alt="Portifólio2"></h1>
+<h1><img  src="./img/imgReadme.png" alt="Portifólio"></h1>
+<h1><img  src="./img/imgReadme2.png" alt="Portifólio2"></h1>
+<h1 align="center"><img  src="./img/imgReadme3.png" alt="Portifólio2"><img  src="./img/imgReadme4.png" alt="Portifólio2"></h1>
+
 
 <h2>Confira este projeto acessando o link abaixo:</h2>
 <a target="_blank" href="https://leandrorosadev.github.io/portifolio.io/">Acesse esse Projeto</a>
