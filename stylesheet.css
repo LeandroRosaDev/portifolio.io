@@ -10,13 +10,15 @@ body {
  header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #1C1C1C;
   box-sizing: border-box;
+  padding:2rem 3.75rem;
+  border-bottom:solid 1px #5e3bee;
 }
 .logohome {
   font-family: 'Dancing Script', cursive;
-  font-size: 28px;
+  font-size: 1.75rem;
   color: #f7f7f7;
 }
 ul {
@@ -24,7 +26,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   font-weight: 400;
-  gap: 3rem;
+  gap: 5rem;
 }
 a {
   text-decoration: none;
@@ -118,6 +120,9 @@ main {
   max-width: 100%;
   margin-left: 60px;
 }
+
+/*Qualificações*/
+
 .skills {
   padding: 3.75rem;
   margin-bottom: -100px;
@@ -133,6 +138,8 @@ main {
 .habilitys {
   line-height: 1.4;
 }
+
+/*SOBRE MIM*/
 .aboutme {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -143,8 +150,8 @@ main {
   color: #f7f7f7;
 }
 .aboutme img {
-  max-width: 50%;
-  margin-left: 120px;
+  max-width: 80%;
+  
 }
 .portifoliotitlle {
   padding: 3.75rem;
@@ -187,7 +194,6 @@ main {
 }
 .footer {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   color: #f7f7f7; 
@@ -209,18 +215,67 @@ main {
   align-items: center;
   color: #f7f7f7;
   padding: 2rem;
- text-align: center;
+  text-align: center;
 }
 
- 
-
-
-
-/* @media (max-width: 1200px) {
+@media (max-width: 700px) {
+  ul {
+    gap: 2rem;
+  }
+  .listmenu{
+    padding: 10px;
+    border-radius: 4px;
+    transition: 0.2s;
+    }
+    .listmenu:hover{
+    background-color: #5e3bee;
+    
+  }
+  .listmenu::after {
+    display: none;
+  }   
+  main {
+    grid-template-columns: 1fr;
+  }
+  .introimg{
+    margin: 0px;
+  }
   .qualities {
     grid-template-columns: 1fr 1fr;
   }
+  .aboutme{
+    grid-template-columns: 1fr;
+  }
+  .aboutme img{
+    max-width: 100%;
+  }
+  .portifoliocontent{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
+@media (max-width: 450px){
+  header{
+    gap: 3rem;
+  }
+  ul{
+    gap: 1rem;
+  }
+  .contato{
+    display: none;
+  }
+  .qualities{
+    grid-template-columns: 1fr;
+  }
+  .portifoliotitlle{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+/* 
 @media (max-width: 900px) {
   h1,
   span {
